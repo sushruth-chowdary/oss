@@ -1,0 +1,7 @@
+body{
+    background-image: url(/images/login/images.png) ;
+    background-repeat: no-repeat;
+    background-color: lightblue;
+    background-size: cover;
+    enable-background: accumulate;
+}

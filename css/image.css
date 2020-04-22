@@ -1,0 +1,73 @@
+body{
+  background-image: url(/images/white-vector.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  width: 1200px;
+  padding: 10px;
+  border: 5px #669900;
+  margin: 0;
+}
+  .navbar {
+    width: 100%;
+    background-color:transparent;
+    overflow: auto;
+  }
+  
+ 
+ .navbar a {
+    float: left;
+    padding: 12px;
+    color: blue;
+    text-decoration: whitesmoke;
+    font-size: 17px;
+    width: 25%; 
+    text-align: center;
+    align-items: center;
+    align-self: center;
+  }
+  
+ 
+  .navbar a:hover {
+    background-color:  rgb(216, 24, 24);
+  }
+  
+  
+  .navbar a.active {
+    background-color:ta ;
+  }
+  
+ 
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 200%;
+      text-align: left;
+    }
+  }
+  p{
+      background-color: red;
+      font-style: italic , bold;
+      background-color: burlywood;
+  }
+ 
+
+  ul{
+      text-decoration: none;
+  }
+  ul li{
+      display: inline-block;
+  }
+  header {
+    border: 16px solid transparent;
+    padding: 1px;
+   
+  }
+  
+h6{
+  text-align-last: right;
+}
